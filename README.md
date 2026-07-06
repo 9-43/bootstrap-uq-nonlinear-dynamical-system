@@ -55,7 +55,7 @@ The final figures are stored in `figures/`:
 
 The prediction band widens over the future time interval because small uncertainty in `mu` accumulates into trajectory uncertainty through the nonlinear dynamics.
 
-Compact text summaries are included in `results/`. Large raw numerical arrays are intentionally excluded from the public version.
+Compact text summaries are included in `results/`. 
 
 ## Repository Structure
 
