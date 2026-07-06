@@ -1,0 +1,13 @@
+Bootstrap and prediction band summary
+=====================================
+n_points: 60
+Noise level sigma: 0.400000
+True mu: 2.000000
+Estimated mu from original data: 1.991667
+Number of bootstrap samples: 100
+
+Bootstrap parameter uncertainty
+--------------------------------
+Bootstrap mean: 1.988225
+Bootstrap standard deviation: 0.038158
+95% bootstrap interval: [1.913948, 2.059425]

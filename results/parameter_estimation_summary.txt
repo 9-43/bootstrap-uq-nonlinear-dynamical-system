@@ -1,0 +1,11 @@
+Parameter estimation summary
+============================
+n_points: 60
+Noise level sigma: 0.400000
+True mu: 2.000000
+Estimated mu: 1.991667
+Absolute error: 0.008333
+Sum of squared errors: 5.860081
+Root mean squared error: 0.312519
+Optimization success: True
+Optimization message: `ftol` termination condition is satisfied.
