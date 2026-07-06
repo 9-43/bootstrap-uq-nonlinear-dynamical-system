@@ -2,7 +2,6 @@
 
 This repository contains a compact independent mini-project on uncertainty-aware parameter inference and prediction for a nonlinear dynamical system. The example system is the Van der Pol oscillator. The project estimates an unknown model parameter from noisy partial observations and uses parametric bootstrap to propagate parameter uncertainty into future trajectory prediction bands.
 
-This is a selected public-upload version of the project. It is not a full backup of all exploratory files, and it does not claim empirical calibration or repeated-experiment coverage validation.
 
 ## Overview
 
@@ -81,38 +80,8 @@ bootstrap-uq-nonlinear-dynamical-system-public-upload/
     └── bootstrap_prediction_summary.txt
 ```
 
-## How to Run
 
-Install the requirements:
 
-```bash
-pip install -r requirements.txt
-```
 
-Run the workflow from the repository root:
-
-```bash
-python code/01_generate_noisy_data.py
-python code/02_estimate_parameter.py
-python code/03_bootstrap_prediction_band.py
-```
-
-The scripts will regenerate the data, figures, result summaries, and intermediate `.npz` arrays for the final experiment setting. The intermediate `.npz` arrays are ignored by `.gitignore` and are not included in this public-upload folder.
-
-## Requirements
-
-The scripts use:
-
-- NumPy
-- SciPy
-- Matplotlib
-
-## Limitations and Possible Extensions
-
-This version uses a single synthetic experiment and parametric bootstrap uncertainty propagation. Empirical calibration and repeated-experiment coverage validation are not included. Possible extensions include repeated simulations to assess coverage, comparison with Bayesian inference, joint inference with partially observed states, and robustness studies under misspecified noise assumptions.
-
-## Note
-
-This repository is intended as a concise research-code portfolio project. It does not claim publication, empirical calibration, or coverage validation.
 
 
