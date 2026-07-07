@@ -33,8 +33,7 @@ Only noisy measurements of `x(t)` are used for inference:
 x_obs(t_i) = x(t_i; mu) + epsilon_i,
 epsilon_i ~ N(0, sigma^2)
 ```
-
-The state variable `y(t)` is latent in the estimation problem.
+Only the first state variable \(x(t)\) is observed with Gaussian noise, while \(y(t)\) is treated as an unobserved hidden state. This creates a simple partial-observation setting, where the parameter must be inferred from incomplete noisy measurements.
 
 ## Method
 
